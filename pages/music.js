@@ -7,7 +7,11 @@ export default function Music() {
       <p>On the Way :)</p>
       <p>
         Till then, chech out my music{" "}
-        <a href="https://linktr.ee/nisharrk" className="text-teal-500">
+        <a
+          href="https://linktr.ee/nisharrk"
+          target="_blank"
+          className="text-teal-500"
+        >
           here.
         </a>
       </p>
