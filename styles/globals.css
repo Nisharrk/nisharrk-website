@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Josefin Sans", sans-serif;
+@font-face {
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
 }

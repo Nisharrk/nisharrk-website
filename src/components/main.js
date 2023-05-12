@@ -12,7 +12,7 @@ export default function Main() {
         </Link>
       </div>
       <div className="w-1/2 flex items-center justify-center hover:bg-white text-3xl font-bold text-white hover:text-black">
-        <Link legacyBehavior href="/temp">
+        <Link legacyBehavior href="/music">
           <a className="w-full h-full flex items-center justify-center">
             nisharrk.mp3
           </a>
