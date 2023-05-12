@@ -12,7 +12,7 @@ export default function Portfolio() {
           my learnings. These projects demonstrate my{" "}
           <span className="text-teal-500 font-semibold">frontend</span>,{" "}
           <span className="text-teal-500 font-semibold">backend</span> and
-          <span className="text-teal-500 font-semibold"> database</span> skills
+          <span className="text-teal-500 font-semibold"> database</span> skills.
         </p>
       </div>
       <div>
@@ -31,12 +31,12 @@ export default function Portfolio() {
                   margin: "auto",
                 }}
               />
-              <h2 className="text-2xl pt-8 pb-2 font-semibold">
+              <h2 className="text-2xl pt-8 pb-2 font-bold text-teal-600">
                 {project.name}
               </h2>
             </a>
             <p className="py-2 text-md">{project.description}</p>
-            <h6 className="py-3 text-teal-600">Technologies Used:</h6>
+            <h6 className="pt-3 pb-2 text-teal-600">Technologies Used</h6>
             {project.tech.map((technology) => (
               <p className="text-gray-200 text-sm py-1" key={technology}>
                 {technology}
