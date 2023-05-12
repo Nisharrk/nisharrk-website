@@ -2,7 +2,7 @@ import React from "react";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillInstagram,
+  AiFillGithub,
 } from "react-icons/ai";
 import Image from "next/image";
 import myImage from "../../../public/image.png";
@@ -27,8 +27,8 @@ export default function Main() {
         <a href="https://www.linkedin.com/in/nisharrk/" target="_blank">
           <AiFillLinkedin />
         </a>
-        <a href="https://instagram.com/Nisharrk" target="_blank">
-          <AiFillInstagram />
+        <a href="https://github.com/Nisharrk" target="_blank">
+          <AiFillGithub />
         </a>
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full mb-10 w-80 h-80 md:h-96 md:w-96">
