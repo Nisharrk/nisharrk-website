@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "@/src/components/dev/nav";
 import Main from "@/src/components/dev/main";
 import Portfolio from "@/src/components/dev/portfolio";
+import Skills from "@/src/components/dev/skills";
 
 export default function Dev() {
   return (
@@ -10,6 +11,7 @@ export default function Dev() {
         <Nav />
         <Main />
         <Portfolio />
+        <Skills />
       </section>
     </div>
   );

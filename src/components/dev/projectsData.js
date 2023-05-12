@@ -1,5 +1,6 @@
 import Budget from "../../../public/budget.png";
 import Website from "../../../public/website.gif";
+import Museum from "../../../public/museum.png";
 
 const projects = [
   {
@@ -16,6 +17,14 @@ const projects = [
     url: "https://budget-client-phi.vercel.app/",
     image: Budget,
     tech: ["NextJS", "Node", "Express", "MongoDB", "Mongoose", "Tailwindcss"],
+  },
+  {
+    name: "Metropolitan Museum of Art",
+    description:
+      "An artworks database site using the Metropolitan Museum of Art Collection API",
+    url: "https://web422-assign6-phi.vercel.app/",
+    image: Museum,
+    tech: ["NextJS", "JWT", "Jotai", "SWR", "REST API", "Bootstrap"],
   },
 ];
 

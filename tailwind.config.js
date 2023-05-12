@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        robotoSlab: "robotoSlab",
       },
     },
   },

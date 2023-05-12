@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import projects from "./projects";
+import projects from "./projectsData";
 
 export default function Portfolio() {
   return (
@@ -36,12 +36,19 @@ export default function Portfolio() {
               </h2>
             </a>
             <p className="py-2 text-md">{project.description}</p>
-            <h6 className="pt-3 pb-2 text-teal-600">Technologies Used</h6>
-            {project.tech.map((technology) => (
-              <p className="text-gray-200 text-sm py-1" key={technology}>
-                {technology}
-              </p>
-            ))}
+            <h6 className="pt-3 pb-2 text-teal-600 text-lg">
+              Technologies Used
+            </h6>
+            <div className="grid grid-cols-2 max-w-xl mx-auto">
+              {project.tech.map((technology) => (
+                <p
+                  className="text-gray-200 text-sm py-1 leading-none"
+                  key={technology}
+                >
+                  {technology}
+                </p>
+              ))}
+            </div>
           </div>
         ))}
       </div>
