@@ -1,20 +1,15 @@
 import Link from "next/link";
 import React from "react";
+import Nav from "../src/components/music/nav";
+import Main from "@/src/components/music/main";
 
 export default function Music() {
   return (
-    <div className="flex flex-col min-h-screen bg-black text-2xl font-bold justify-center items-center text-white">
-      <p>On the Way :)</p>
-      <p>
-        Till then, chech out my music{" "}
-        <a
-          href="https://linktr.ee/nisharrk"
-          target="_blank"
-          className="text-teal-500"
-        >
-          here.
-        </a>
-      </p>
+    <div className="bg-black min-h-screen  px-10 md:px-20 lg:px-40">
+      <section>
+        <Nav />
+        <Main />
+      </section>
     </div>
   );
 }
