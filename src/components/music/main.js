@@ -1,6 +1,6 @@
 import React from "react";
 import { BsSpotify, BsYoutube } from "react-icons/bs";
-import { SiItunes } from "react-icons/Si";
+import { SiItunes } from "react-icons/si";
 
 export default function Main() {
   return (
