@@ -12,7 +12,7 @@ export default function Main() {
         Singer, Songwriter and producer
       </h3>
       <p className="text-lg py-5 leading-8 text-gray-200 md:text-xl max-w-xl mx-auto">
-        A multi-genre artist making music that you feel.
+        A guy exploring the world of music.
       </p>
       <div className="text-5xl flex justify-center gap-12 py-3 pb-6">
         <a
