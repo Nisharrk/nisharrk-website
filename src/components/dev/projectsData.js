@@ -1,14 +1,14 @@
 import Budget from "../../../public/budget.png";
-import Website from "../../../public/website.gif";
+import Iamlazy from "../../../public/iamlazy.png";
 import Museum from "../../../public/museum.png";
 
 const projects = [
   {
-    name: "Personal Website",
-    description: "My personal website showcasing my projects and music",
-    url: "https://www.nisharrk.me",
-    image: Website,
-    tech: ["NextJS", "React", "Tailwindcss"],
+    name: "IAMLAZY",
+    description: "A URL shortener",
+    url: "https://drab-gray-donkey-vest.cyclic.app/",
+    image: Iamlazy,
+    tech: ["Node", "Express", "MongoDB", "HTML", "CSS"],
   },
   {
     name: "Budget Tracker",
