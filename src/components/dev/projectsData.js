@@ -1,6 +1,7 @@
 import Budget from "../../../public/budget.png";
 import Iamlazy from "../../../public/iamlazy.png";
 import Museum from "../../../public/museum.png";
+import Todo from "../../../public/todo.png";
 
 const projects = [
   {
@@ -17,6 +18,13 @@ const projects = [
     url: "https://web422-assign6-phi.vercel.app/",
     image: Museum,
     tech: ["NextJS", "JWT", "Jotai", "SWR", "REST API", "Bootstrap"],
+  },
+  {
+    name: "To-Do App",
+    description: "A react application for tracking your tasks",
+    url: "https://to-do-coral-nine.vercel.app/",
+    image: Todo,
+    tech: ["React", "Chakra-UI"],
   },
   {
     name: "Budget Tracker",
