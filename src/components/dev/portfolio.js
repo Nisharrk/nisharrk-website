@@ -15,11 +15,11 @@ export default function Portfolio() {
           <span className="text-teal-500 font-semibold"> database</span> skills.
         </p>
       </div>
-      <div>
+      <div className="flex">
         {projects.map((project) => (
           <div
             key={project.name}
-            className="text-center shadow-md hover:shadow-lg shadow-teal-600 hover:shadow-teal-400 p-10 rounded-xl my-10 md:mx-20"
+            className="text-center shadow-sm hover:shadow-md shadow-teal-800 hover:shadow-teal-600 rounded-md my-10 mx-2 py-6 px-2 flex-1"
           >
             <a href={project.url} target="_blank" rel="noopener noreferrer">
               <Image
@@ -34,21 +34,21 @@ export default function Portfolio() {
               <h2 className="text-2xl pt-8 pb-2 font-bold text-teal-600">
                 {project.name}
               </h2>
+              <p className="py-2 text-md">{project.description}</p>
+              <h6 className="pt-3 pb-2 text-teal-600 text-lg">
+                Technologies Used
+              </h6>
+              <div className="grid grid-cols-2 max-w-xl mx-auto">
+                {project.tech.map((technology) => (
+                  <p
+                    className="text-gray-200 text-sm py-1 leading-none"
+                    key={technology}
+                  >
+                    {technology}
+                  </p>
+                ))}
+              </div>
             </a>
-            <p className="py-2 text-md">{project.description}</p>
-            <h6 className="pt-3 pb-2 text-teal-600 text-lg">
-              Technologies Used
-            </h6>
-            <div className="grid grid-cols-2 max-w-xl mx-auto">
-              {project.tech.map((technology) => (
-                <p
-                  className="text-gray-200 text-sm py-1 leading-none"
-                  key={technology}
-                >
-                  {technology}
-                </p>
-              ))}
-            </div>
           </div>
         ))}
       </div>
