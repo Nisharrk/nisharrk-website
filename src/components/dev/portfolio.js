@@ -15,11 +15,11 @@ export default function Portfolio() {
           <span className="text-teal-500 font-semibold"> database</span> skills.
         </p>
       </div>
-      <div className="flex">
+      <div className="flex flex-wrap justify-center">
         {projects.map((project) => (
           <div
             key={project.name}
-            className="text-center shadow-sm hover:shadow-md shadow-teal-800 hover:shadow-teal-600 rounded-md my-10 mx-2 py-6 px-2 flex-1"
+            className="text-center shadow-sm hover:shadow-md shadow-teal-800 hover:shadow-teal-600 rounded-md my-10 mx-2 pt-2 pb-8 px-2 flex-none w-1/4"
           >
             <a href={project.url} target="_blank" rel="noopener noreferrer">
               <Image

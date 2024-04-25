@@ -10,7 +10,6 @@ const projects = [
     image: Iamlazy,
     tech: ["Node", "Express", "MongoDB", "HTML", "CSS"],
   },
-
   {
     name: "Metropolitan Museum of Art",
     description:
