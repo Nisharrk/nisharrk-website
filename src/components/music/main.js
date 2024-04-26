@@ -1,6 +1,9 @@
 import React from "react";
 import { BsSpotify, BsYoutube } from "react-icons/bs";
-import { SiItunes } from "react-icons/si";
+import { SiApplemusic } from "react-icons/si";
+import { AiFillInstagram } from "react-icons/ai";
+import { InstagramEmbed } from "react-social-media-embed";
+import instagramReels from "./hightlightsData.js";
 
 export default function Main() {
   return (
@@ -14,12 +17,14 @@ export default function Main() {
       <p className="text-lg py-5 leading-8 text-gray-200 md:text-xl max-w-xl mx-auto">
         A guy exploring the world of music.
       </p>
+
+      {/* Links */}
       <div className="text-5xl flex justify-center gap-12 py-3 pb-6">
         <a
           href="https://music.apple.com/us/artist/nisharrk/1576125215"
           target="_blank"
         >
-          <SiItunes />
+          <SiApplemusic />
         </a>
         <a
           href="https://open.spotify.com/artist/7LCVNxVZhlNd2jElB8mxaF?si=914MgLFDTvCIPioXUsNO5A"
@@ -33,6 +38,21 @@ export default function Main() {
         >
           <BsYoutube />
         </a>
+        <a href="https://www.instagram.com/nisharrk/" target="_blank">
+          <AiFillInstagram />
+        </a>
+      </div>
+
+      {/* Highlights section */}
+      <div>
+        <p className="text-4xl pt-14 pb-4 text-teal-500">Highlights</p>
+      </div>
+      <div className="lg:flex justify-center py-4">
+        {instagramReels.map((reels) => (
+          <div key={reels.title} className="px-2 py-2">
+            <InstagramEmbed url={reels.url} width={328} height={500} />
+          </div>
+        ))}
       </div>
     </div>
   );
