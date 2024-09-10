@@ -5,13 +5,13 @@ import Todo from "../../../public/todo.png";
 import Travellog from "../../../public/travellog.png";
 
 const projects = [
-  {
-    name: "IAMLAZY",
-    description: "A URL shortener",
-    url: "https://drab-gray-donkey-vest.cyclic.app/",
-    image: Iamlazy,
-    tech: ["Node", "Express", "MongoDB", "HTML", "CSS"],
-  },
+  // {
+  //   name: "IAMLAZY",
+  //   description: "A URL shortener",
+  //   url: "https://drab-gray-donkey-vest.cyclic.app/",
+  //   image: Iamlazy,
+  //   tech: ["Node", "Express", "MongoDB", "HTML", "CSS"],
+  // },
   {
     name: "Travel Log",
     description:
