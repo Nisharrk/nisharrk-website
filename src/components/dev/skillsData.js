@@ -1,19 +1,11 @@
 const Skills = [
   {
     type: "Frontend",
-    name: [
-      "HTML",
-      "CSS",
-      "React",
-      "NextJS",
-      "Tailwindcss",
-      "Bootstrap",
-      "MaterialUI",
-    ],
+    name: ["HTML", "CSS", "React", "NextJS", "Tailwindcss"],
   },
   {
     type: "Backend",
-    name: ["Node", "Express", "REST APIs", "Next-Auth", "JWT", "PassportJS"],
+    name: ["Node", "Express", "REST APIs", "tRPC"],
   },
   {
     type: "Databases/ORMs/ODMs",
@@ -25,14 +17,7 @@ const Skills = [
   },
   {
     type: "Others",
-    name: [
-      "Git",
-      "GitHub",
-      "CI/CD",
-      "UML Diagrams",
-      "Figma",
-      "Chrome Dev Tools",
-    ],
+    name: ["Git", "GitHub", "CI/CD", "UML Diagrams"],
   },
 ];
 
