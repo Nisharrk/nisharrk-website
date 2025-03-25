@@ -41,15 +41,7 @@ const projects = [
     url: "https://web422-assign6-phi.vercel.app/",
     image: Museum,
     tech: ["NextJS", "JWT", "Jotai", "SWR", "REST API", "Bootstrap"],
-  },
-  {
-    name: "Budget Tracker",
-    description:
-      "A full stack application for tracking your expenses and income",
-    url: "https://budget-client-phi.vercel.app/",
-    image: Budget,
-    tech: ["NextJS", "Node", "Express", "MongoDB", "Mongoose", "Tailwindcss"],
-  },
+  }
 ];
 
 export default projects;
