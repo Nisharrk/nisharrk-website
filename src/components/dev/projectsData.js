@@ -1,21 +1,18 @@
-import Budget from "../../../public/budget.png";
-import Iamlazy from "../../../public/iamlazy.png";
-import Museum from "../../../public/museum.png";
+import girth from "../../../public/girth.png";
 import Todo from "../../../public/todo.png";
 import Travellog from "../../../public/travellog.png";
 
 const projects = [
-  // {
-  //   name: "IAMLAZY",
-  //   description: "A URL shortener",
-  //   url: "https://drab-gray-donkey-vest.cyclic.app/",
-  //   image: Iamlazy,
-  //   tech: ["Node", "Express", "MongoDB", "HTML", "CSS"],
-  // },
+  {
+    name: "girthOS",
+    description: "Body measurements tracker",
+    url: "https://girthos.vercel.app/",
+    image: girth,
+    tech: ["NextJS", "MongoDB", "Mongoose", "TailwindCSS", "ApexCharts"],
+  },
   {
     name: "Travel Log",
-    description:
-      "A full stack application for to log the places I have travelled",
+    description: "Places travelled logger",
     url: "https://travel-log-rosy.vercel.app/",
     image: Travellog,
     tech: [
@@ -29,19 +26,11 @@ const projects = [
   },
   {
     name: "To-Do App",
-    description: "A react application for tracking your tasks",
+    description: "Tasks tracker",
     url: "https://to-do-coral-nine.vercel.app/",
     image: Todo,
     tech: ["React", "Chakra-UI"],
   },
-  {
-    name: "Metropolitan Museum of Art",
-    description:
-      "An artworks database site using the Metropolitan Museum of Art Collection API",
-    url: "https://web422-assign6-phi.vercel.app/",
-    image: Museum,
-    tech: ["NextJS", "JWT", "Jotai", "SWR", "REST API", "Bootstrap"],
-  }
 ];
 
 export default projects;
